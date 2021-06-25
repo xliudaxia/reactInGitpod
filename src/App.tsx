@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
+import moment from 'moment';
 import './App.css';
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
           rel="noopener noreferrer"
         >
          <div>做最好的自己</div>
-          Learn React
+          Learn React<br/>
+          {moment().format('llll')}
         </a>
       </header>
     </div>
